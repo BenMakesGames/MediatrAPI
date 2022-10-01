@@ -4,7 +4,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Silly.Web", "Silly.Web\Sill
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Silly.Application", "Silly.Application\Silly.Application.csproj", "{8688678A-28E3-4432-823B-A828D24D9815}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Silly.Repository", "Silly.Repository\Silly.Repository.csproj", "{6DA94653-8578-4780-96FC-57E248B32EF6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Silly.Database", "Silly.Database\Silly.Database.csproj", "{6DA94653-8578-4780-96FC-57E248B32EF6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

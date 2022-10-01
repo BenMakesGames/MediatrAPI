@@ -5,9 +5,11 @@ using Mediatr.Web;
 using Microsoft.AspNetCore.WebUtilities;
 using Newtonsoft.Json;
 using Silly.Application.Fruit;
+using Silly.Database;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddSingleton<Repository>();
 builder.Services.AddMediatR(typeof(GetFruit));
 
 var jsonSettings = new JsonSerializerSettings()

@@ -11,7 +11,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Silly.Repository\Silly.Repository.csproj" />
+      <ProjectReference Include="..\Silly.Database\Silly.Database.csproj" />
     </ItemGroup>
 
 </Project>
