@@ -17,6 +17,6 @@ public sealed class GetFruit: IRequestHandler<GetFruit.Request, GetFruit.Respons
     
     public async Task<Response> Handle(Request request, CancellationToken ct)
     {
-        return new(Repository.Fruit.ToList());
+        return new(Repository.Fruit);
     }
 }
